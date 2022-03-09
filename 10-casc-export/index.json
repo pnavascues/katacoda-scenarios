@@ -1,0 +1,39 @@
+{
+  "title": "Configuration Bundle Composition",
+  "description": "This lab will explore the composition of a CloudBees CI configuration bundle, to include the manual updating of a configuration bundle and creating a configuration bundle from the bundle export of an existing controller.",
+  "difficulty": "Beginner",
+  "time": "15 minutes",
+  "details": {
+    "steps": [
+      {
+        "title": "Review a bundle",
+        "text": "step1.md"
+      },
+      {
+        "title": "Change a controller's configuration",
+        "text": "step2.md"
+      },
+      {
+        "title": "Export a bundle with the changes",
+        "text": "step3.md"
+      },
+      {
+        "title": "Deploy the changes",
+        "text": "step4.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "foreground.sh"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "environment": {
+    "uilayout": "terminal"
+  },
+  "backend": {
+    "imageid": "ubuntu:2004"
+  }
+}
